@@ -13,9 +13,41 @@
   <link rel="shortcut icon" href="/favicons/favicon.ico">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+
 </head>
 
 <body>
+  <header>
+      <div class="container clearfix">
+          <h1 id="logo">
+              LPC
+          </h1>
+          <nav>
+              <a href="">About</a>
+              <a href="">Members</a>
+              <a href="">Contact</a>
+          </nav>
+      </div>
+  </header>
 <main role="main">
 <section class="sect-banner">
   <ul class="kf-slider">
@@ -24,23 +56,15 @@
   <li></li>
 </ul>
 <div class="v-center">
-  <nav>
-    <ul>
-      <li><img style="width:5vh; height4.8vh;" src="images/onlyLogo.png">
-        <ul class="drop-menu menu-1">
-          <li>Coming</li>
-          <li>Soon</li>
-          <li>:))</li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+
   <a><img style="border:0px; position:absolute; top:93vh; left:2vh; width:7vh; height7vh;" src="images/resizedLogo.png"></a>
   <p style="font-size:5vh; font-family:secFont; font-weight:500">Lowell Physics Club</p>
   <p>LPC is competitive club at <a style ="font-size:2.5vh; font-family:secFont;" href="https://lhs-sfusd-ca.schoolloop.com/" target="_blank">Lowell High School</a> dedicated to promoting music education for youth
  committed to fostering physics education before, throughout, and beyond high school.</p>
-  <p> </p>
-
+<br><br><br>
+<a style="font-size:3vh; font-family:secFont; font-weight:500"> About </a>
+  <p style="font-size:2vh;">
+LPC provides materials and lectures to further your understanding of physics and to prepare you for yearly competitions through hosting discussions and skirmishes. We’ll try to cover everything taught in an AP Physics 1 course but also explore its deeper applications. In addition, we strive to increase interest and provide services for physics education to others outside of Lowell.
      </p>
 </div>
 </section>
