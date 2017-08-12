@@ -44,6 +44,7 @@ header {
     transition: height 0.3s;
 }
 header h1#logo {
+    margin-left: 35px;
     display: inline-block;
     height: 150px;
     line-height: 150px;
@@ -63,8 +64,9 @@ header nav {
     float: right;
 }
 header nav a {
+  margin-right: 35px;
     line-height: 150px;
-    margin-left: 20px;
+
     color: #9fdbfc;
     font-weight: 700;
     font-size: 18px;
