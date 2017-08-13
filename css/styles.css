@@ -362,6 +362,7 @@ body {
       background-image: url(../images/banner-1.jpg); } }
 .sect-banner ul.kf-slider li:nth-child(2) {
   background-image: url(../images/banner-2-sm.jpg);
+  background: rgba(41, 120, 155, 0.6);
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
   animation-delay: 5s; }
@@ -370,6 +371,7 @@ body {
       background-image: url(../images/banner-2.jpg); } }
 .sect-banner ul.kf-slider li:nth-child(3) {
   background-image: url(../images/banner-3-sm.jpg);
+  background: rgba(41, 63, 170, 1);
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   animation-delay: 10s; }
