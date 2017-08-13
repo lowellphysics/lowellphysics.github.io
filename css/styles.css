@@ -141,11 +141,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  overflow: hidden;
 }
 
 html, body {
   position: relative;
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 *, *:before, *:after {
@@ -290,10 +292,11 @@ html {
   width: 100%;
   -webkit-text-size-adjust: 100%;
   background-color: #0c1423;
+  overflow: hidden;
 }
 
 body {
-
+overflow: hidden;
   -webkit-animation: fade-in ease-in-out 1.4s;
   -moz-animation: fade-in ease-in-out 1.4s;
   animation: fade-in ease-in-out 1.4s; }
