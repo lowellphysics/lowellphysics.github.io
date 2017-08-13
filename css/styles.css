@@ -2,8 +2,6 @@
 html{
   font-size: 100%;
   font-family: "mainFont";
-  overflow-y:scroll;
-   overflow : scroll;
 position:relative;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -31,6 +29,7 @@ position:relative;
 }
 
 header {
+
     width: 100%;
     height: 150px;
     overflow: hidden;
@@ -131,8 +130,8 @@ header.smaller nav a {
 }
 
 
+
 body {
-   overflow : scroll;
   color: #000000;
   margin: 0;
   height: 100%;
@@ -147,7 +146,6 @@ body {
 html, body {
   position: relative;
   overflow-x: hidden;
-   overflow : scroll;
 }
 
 *, *:before, *:after {
@@ -292,7 +290,6 @@ html {
   width: 100%;
   -webkit-text-size-adjust: 100%;
   background-color: #0c1423;
-   overflow : scroll;
 }
 
 body {
@@ -316,14 +313,16 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 110%;
+  height: 100%;
   width: 100%;
   background: rgba(41, 63, 105, 0.6);
   z-index: 0; }
 .sect-banner .v-center {
+  padding-top: 150px;
   position: relative;
   z-index: 2; }
 .sect-banner .v-center {
+  padding-top: 150px;
   display: table-cell;
   vertical-align: middle;
   position: relative;
@@ -337,7 +336,7 @@ body {
     animation: fade-in ease-in-out 2s 0.5s both;
   }
   .sect-banner .v-center p {
-
+padding-top: 100px;
     line-height: 2;
     font-size: 2.5vh;
     -webkit-animation: fade-in ease-in-out 2s 1s both;
