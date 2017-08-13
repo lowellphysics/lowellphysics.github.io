@@ -45,20 +45,27 @@ header {
     transition: height 0.3s;
 }
 header h1#logo {
+  font-size:5vh;
     margin-left: 35px;
     display: inline-block;
     height: 150px;
     line-height: 150px;
     float: left;
-    font-family: "Oswald", sans-serif;
-    font-size: 60px;
+    font-family: secFont;
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+header h1#logo:hover {
+    color: darkorange;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    transition: color 0.7s ease;
 }
 header nav {
     display: inline-block;
@@ -78,7 +85,10 @@ header nav a {
     transition: all 0.3s;
 }
 header nav a:hover {
-    color: white;
+    color: darkorange;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    transition: color 0.7s ease;
 }
 header.smaller {
     height: 75px;
