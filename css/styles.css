@@ -296,7 +296,7 @@ html {
 }
 
 body {
-   overflow : scroll;
+
   -webkit-animation: fade-in ease-in-out 1.4s;
   -moz-animation: fade-in ease-in-out 1.4s;
   animation: fade-in ease-in-out 1.4s; }
@@ -316,7 +316,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 340%;
+  height: 110%;
   width: 100%;
   background: rgba(41, 63, 105, 0.6);
   z-index: 0; }
