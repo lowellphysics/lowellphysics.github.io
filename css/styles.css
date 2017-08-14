@@ -62,21 +62,21 @@ header h1#logo {
 
 header h1#logo:hover {
     color: darkorange;
-    -webkit-transition: color 0.7s ease;
-    -moz-transition: color 0.7s ease;
-    transition: color 0.7s ease;
+    -webkit-transition: color 1.5s ease;
+    -moz-transition: color 1.5s ease;
+    transition: color 1.5s ease;
 }
 header nav {
     display: inline-block;
     float: right;
 }
 header nav a {
-  margin-right: 20px;
+  margin-right: 25px;
     line-height: 150px;
 
-    color: #9fdbfc;
-    font-weight: 700;
-    font-size: 18px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 600;
+    font-size: 20px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -93,17 +93,19 @@ header.smaller {
     height: 75px;
 }
 header.smaller h1#logo {
-    top: 100px;
+
     width: 150px;
     height: 75px;
     line-height: 75px;
     font-size: 30px;
 }
 header.smaller nav a {
+  margin-right: 10px;
     line-height: 75px;
+    font-size: 12px;
 }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 750px) {
     header h1#logo {
         display: block;
         float: none;
@@ -120,8 +122,9 @@ header.smaller nav a {
         margin: 0 auto;
     }
     header nav a {
+      margin-right: 10px;
         line-height: 50px;
-        margin: 0 10px;
+        font-size: 15px;
     }
     header.smaller {
         height: 75px;
@@ -132,9 +135,11 @@ header.smaller nav a {
         font-size: 30px;
     }
     header.smaller nav {
+      margin-right: 10px;
         height: 35px;
     }
     header.smaller nav a {
+      margin-right: 10px;
         line-height: 35px;
     }
 }
