@@ -93,7 +93,6 @@ header.smaller {
     height: 75px;
 }
 header.smaller h1#logo {
-
     width: 150px;
     height: 75px;
     line-height: 75px;
@@ -107,9 +106,9 @@ header.smaller nav a {
 
 @media all and (max-width: 750px) {
     header h1#logo {
+        margin-left: 12px;
         display: block;
         float: none;
-        margin: 0 auto;
         height: 100px;
         line-height: 100px;
         text-align: center;
